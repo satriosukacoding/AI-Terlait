@@ -1,0 +1,26 @@
+{
+  "class_names": [
+    "ChickenPox",
+    "Eczema",
+    "Hives",
+    "Melanoma"
+  ],
+  "num_classes": 4,
+  "class_to_idx": {
+    "ChickenPox": 0,
+    "Eczema": 1,
+    "Hives": 2,
+    "Melanoma": 3
+  },
+  "idx_to_class": {
+    "0": "ChickenPox",
+    "1": "Eczema",
+    "2": "Hives",
+    "3": "Melanoma"
+  },
+  "img_height": 224,
+  "img_width": 224,
+  "timestamp": "20260531_133333",
+  "keras_accuracy": 0.9012345671653748,
+  "model_type": "YOLOv8 Classification + Keras Wrapper"
+}
