@@ -22,8 +22,8 @@ pinned: false
 **Teralit** (*Teralit Skin*) adalah sistem klasifikasi penyakit kulit yang dibangun menggunakan arsitektur **YOLOv8 Classification** yang dibungkus dengan **Keras Functional API**.
 
 Model dirancang untuk mengenali berbagai jenis penyakit kulit dari citra dengan pendekatan hybrid:
-- **YOLOv8** sebagai backbone klasifikasi utama
-- **MobileNetV2 + Channel Attention (SE Block)** sebagai Keras wrapper untuk inferensi fleksibel
+- **YOLOv8** sebagai backbone klasifikasi 
+- **MobileNetV2 + Channel Attention (SE Block)** sebagai Keras untuk model utama
 
 ---
 
@@ -31,7 +31,7 @@ Model dirancang untuk mengenali berbagai jenis penyakit kulit dari citra dengan 
 
 | Komponen | Detail |
 |---|---|
-| Backbone Utama | YOLOv8m Classification (`yolov8m-cls.pt`) |
+| Backbone | YOLOv8m Classification (`yolov8m-cls.pt`) |
 | Keras Wrapper | MobileNetV2 + ChannelAttentionLayer (SE Block) |
 | Custom Layer | `ChannelAttentionLayer` — Squeeze & Excitation |
 | Custom Loss | `FocalCrossEntropyLoss` — menangani class imbalance |
